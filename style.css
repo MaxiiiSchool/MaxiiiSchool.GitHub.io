@@ -1,0 +1,41 @@
+.body {
+    font-family: roboto;
+    background: #dedede;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+.navbar {
+    font-family: Courier New;
+    background-color: rgb(31, 31, 31);
+    border-radius: 6px;
+}
+
+.navbar-items {
+    text-align: left;
+    font-size: 28px;
+    color: rgb(240, 240, 240);
+    padding-left: 10px;
+    text-decoration: underline rgb(31, 31, 31);
+}
+
+.title {
+    text-decoration: underline;
+    font-size: 30px;
+}
+
+.text-blue {
+    color: #0066ff;
+}
+
+.text-white {
+    color: white
+}
+
+.width-450 {
+    width: 450px;
+}
+
+.margin-top-10 {
+    margin-top: 10px;
+}
