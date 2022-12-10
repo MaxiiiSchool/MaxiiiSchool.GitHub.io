@@ -1,41 +1,74 @@
-.body {
-    font-family: roboto;
-    background: #dedede;
-    padding-left: 3px;
-    padding-right: 3px;
+*{
+    margin: 0;
+    padding: 0;
 }
 
-.navbar {
-    font-family: Courier New;
-    background-color: rgb(31, 31, 31);
-    border-radius: 6px;
+body {
+    background: rgb(225, 225, 225);
+    font-family: Arial;
+    animation: fade;
+    animation-duration: 0.7s;
+    height: 100%;
 }
 
-.navbar-items {
-    text-align: left;
-    font-size: 28px;
-    color: rgb(240, 240, 240);
-    padding-left: 10px;
-    text-decoration: underline rgb(31, 31, 31);
+nav {
+    width: 100%;
+    height: 40px;
+    background-color: white;
+    box-shadow: 3px 3px 3px grey;
 }
 
-.title {
-    text-decoration: underline;
-    font-size: 30px;
+nav a {
+    display: block;
+    float: left;
+    padding: 10px;
+    text-decoration: none;
+    color: rgb(10, 10, 10);
 }
 
-.text-blue {
-    color: #0066ff;
+nav a:hover {
+    display: block;
+    background-color: #dedede;
 }
 
-.text-white {
-    color: white
+h1,h2,h3,h4,h5,h6 {
+    padding: 6px;
 }
 
-.width-450 {
-    width: 450px;
+.box {
+    background: white;
+    box-shadow: 3px 3px 3px grey;
 }
 
-.margin-top-10 {
-    margin-top: 10px;
+.box-item {
+    padding: 14px;
+}
+
+.button1 {
+    background: turquoise;
+    color: black;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    padding: 8px 14px;
+    text-decoration: none;
+    background: linear-gradient(90deg, rgb(0, 42, 255) 0%, rgb(0, 119, 255) 80%);
+}
+
+.button1:hover {
+    background: rgb(74, 253, 235);
+}
+
+.fit {
+    max-width: 99%;
+    max-height: 99%;
+}
+
+@keyframes fade {
+    0% {
+        opacity: 30%;
+    }
+    100% {
+        opacity: 100%;
+    }
 }
