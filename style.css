@@ -64,7 +64,7 @@ nav a:nth-child(even):hover {animation: button-hover-even 0.7s;}
     grid-template-areas: 
     "picture role"
     "picture name"
-    "picture info"
+    "picture socials"
     "picture socials";
     padding: 10px;
 }
@@ -72,8 +72,7 @@ nav a:nth-child(even):hover {animation: button-hover-even 0.7s;}
 .item1 {grid-area: picture; width: 80px;}
 .item2 {grid-area: role; font-weight: bold;}
 .item3 {grid-area: name;}
-.item4 {grid-area: info;}
-.item5 {grid-area: socials; color: #686868;}
+.item4 {grid-area: socials; color: #686868; align-self: flex-end;}
 
 @keyframes animation {
     0%{opacity: 50%;}
