@@ -79,7 +79,7 @@ nav a:nth-child(even):hover {animation: button-hover-even 0.7s;}
 
 .item1 {grid-area: picture; width: 80px;}
 .item2 {grid-area: role; font-weight: bold;}
-.item3 {grid-area: name;}
+.item3 {grid-area: name; color: white; text-decoration: none;}
 .item4 {grid-area: socials; color: #686868; align-self: flex-end;}
 
 @keyframes animation {
