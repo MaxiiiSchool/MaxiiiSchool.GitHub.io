@@ -30,13 +30,9 @@ nav a {
 
 nav div a {float: left; font-weight: bold; font-size: 18px;}
 
-nav a:nth-child(even) {background: #303030;}
-
 nav a:hover {animation: button-hover 0.7s;}
 
 nav div a:hover {animation: none;}
-
-nav a:nth-child(even):hover {animation: button-hover-even 0.7s;}
 
 .red {color: rgb(199, 0, 0);}
 
