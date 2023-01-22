@@ -55,6 +55,7 @@ nav div a:hover {animation: none;}
     margin-left: auto;
     margin-right: auto;
     width: 80%;
+    padding-bottom: 16px;
 }
 
 .grid-container {
