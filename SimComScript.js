@@ -4,5 +4,5 @@ function calculatePrice() {
 
     var price = exchangeprice - ((percentage/100)*exchangeprice);
 
-    document.getElementById("result").textContent = "Total Cost: $" + price.toFixed(2);
+    document.getElementById("result").textContent = "Total Cost: $" + price.toFixed(3);
 }
