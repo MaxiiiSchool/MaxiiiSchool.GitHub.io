@@ -31,7 +31,7 @@ p {
 }
 
 input {
-    background: rgb(255, 255, 255);
+    background: white;
     border: 0;
     margin: 8px;
     font-size: 24px;
@@ -42,20 +42,19 @@ input {
 }
 
 input:focus {
-    transition: transform .5s;
-    transform: scale(1.1)
+    border: solid black;
 }
 
 button {
-    margin: 8px;
-    background-color: white(213, 213, 213);
+    padding: 8px;
+    background-color: rgb(236, 237, 255);
     color: black(41, 41, 41);
-    border-radius: 8px;
+    border-radius: 10px;
     font-size: 25px;
     transition: transform .2s;
     display: block;
     margin : 0 auto;
-    border: solid black 1px;
+    border: solid black 2px;
 }
 
 button:active {
@@ -102,4 +101,14 @@ button:active {
 
 .dropdown:hover .dropdown-content {
     display: block;
+}
+
+.IndexButton {
+    border: solid black;
+    padding: 10px;
+    border-radius: 10px;
+    color: black;
+    background-color: rgb(236, 237, 255);
+    text-decoration: none;
+    font-weight: bold;
 }
