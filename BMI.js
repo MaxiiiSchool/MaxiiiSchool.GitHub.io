@@ -8,10 +8,10 @@ function BMI() {
     bmi = Math.round(100*bmi)/100;
     document.getElementById("bmi").innerHTML = text1 + "<br>" + bmi;
     if (bmi<19) {
-        result = "You are overweight"
+        result = "You are underweight"
     }
     else if (bmi>26) {
-        result = "You are underweight"
+        result = "You are overweight"
     }
     else {
         result = "Your weight is normal"
